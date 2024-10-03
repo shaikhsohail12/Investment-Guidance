@@ -1,0 +1,143 @@
+.header{
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content:space-between ;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: auto;
+    width: auto;
+}
+
+.Header--Nav{
+    width: 41%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    float: left;
+    margin-left: -45px;
+    /* margin-left: auto; */
+}
+
+.NavH{
+    margin-left: auto;
+}
+
+.Hpage-nav{
+    width: fit-content;
+}
+
+.Nav-home{
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.Nav-home:hover{
+    font-weight: 500;
+    /* font-style: italic; */
+    color: rgba(177, 84, 63, 0.742);
+    /* background-color: rgba(120, 113, 113, 0.553); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.Nav-home1{
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: right;
+}
+
+.Nav-home1:hover{
+    font-weight: 500;
+    /* font-style: italic; */
+    color: rgba(177, 84, 63, 0.742);
+    /* background-color: rgba(120, 113, 113, 0.553); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header--logo{
+    height: 40px;
+    display: flex;
+    width: auto;
+    max-width: 100%;
+}
+
+.header--logo1{
+   display: flex;
+   height: auto;
+   margin-right: 38%;
+   margin-left: 10%;
+}
+
+.logo-nva{
+    display: flex;
+}
+
+.header--option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    
+}
+
+.header--nav1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header--optionLineOne{
+    font-size: 11px;
+}
+
+.header--SignIn{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header--SignIn:hover{
+    color: blueviolet;
+}
+
+.navbar1 {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* .logo {
+    color: white;
+    font-size: 24px;
+  } */
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 10px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
