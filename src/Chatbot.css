@@ -1,0 +1,48 @@
+.chatbot {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.user {
+  text-align: right; /* Align user messages to the right */
+  margin: 5px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  padding: 5px;
+  align-self: flex-end; /* Push user messages to the right */
+}
+
+.ai {
+  text-align: left; /* Align AI responses to the left */
+  margin: 5px;
+  background-color: #ffe0b2;
+  border-radius: 5px;
+  padding: 5px;
+  align-self: flex-start; /* Push AI messages to the left */
+}
+
+form {
+  display: flex;
+  padding: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}

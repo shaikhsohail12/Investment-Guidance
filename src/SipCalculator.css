@@ -1,0 +1,32 @@
+.sip-calculator {
+  max-width: 600px; /* Limit the width of the calculator */
+  margin: 0 auto; /* Center the calculator on the page */
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow */
+  background-color: #fff; /* Background color */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Space between input groups */
+  display: flex;
+  flex-direction: column; /* Arrange label and input vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+label {
+  display: flex;
+  justify-content: space-between; /* Space between label and slider */
+  width: 100%; /* Full width of the input group */
+  margin-bottom: 10px; /* Space between label and input */
+}
+
+input[type="range"] {
+  width: 100%; /* Full width for sliders */
+  margin: 0; /* Remove default margin */
+}
+
+input[type="number"] {
+  width: 100%; /* Full width for number input */
+}

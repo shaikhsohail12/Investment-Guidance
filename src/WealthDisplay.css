@@ -1,0 +1,36 @@
+/* src/WealthDisplay.css */
+
+.wealth-display {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-container {
+    position: relative;
+    height: 30px; /* Height of the progress bar */
+    border-radius: 15px;
+    background-color: #f0f0f0; /* Background for the progress bar */
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures bars don't overflow */
+  }
+  
+  .progress-bar {
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .principal {
+    background-color: #76c7c0; /* Green for Principal */
+  }
+  
+  .interest {
+    background-color: #b0e0e6; /* Light Blue for Interest */
+  }
+  
+  .financial-summary {
+    text-align: left;
+  }
+  
